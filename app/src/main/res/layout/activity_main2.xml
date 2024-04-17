@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADFF2F"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="343dp"
+        android:layout_height="505dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:src="@drawable/joline"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="34dp" />
+
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="184dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="#A9A9A9"
+        android:text="Следующая страница"
+        android:textColor="#FFFF"
+        android:textColorHint="#800000"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <Button
+        android:layout_width="181dp"
+        android:layout_height="184dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="#A9A9A9"
+        android:text="Предыдущая страница"
+        android:textColor="#FFFF"
+        android:textColorHint="#800000"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

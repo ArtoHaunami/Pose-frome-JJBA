@@ -1,0 +1,38 @@
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#800080"
+android:orientation="vertical">
+
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:gravity="center"
+        android:text="Нажми на позу чтобы узнать информацию о ней. "
+        android:textColor="#000000"
+        android:textSize="37dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="368dp"
+        android:onClick="changeImage"
+        android:src="@drawable/jonathan" />
+
+    --
+
+    <Button
+        android:layout_width="381dp"
+        android:layout_height="175dp"
+        android:layout_margin="16dp"
+        android:backgroundTint="#A9A9A9"
+        android:text="Следующая страница"
+        android:textColor="#FFFF"
+        android:textColorHint="#800000"
+        android:textSize="25dp" />
+</LinearLayout>
